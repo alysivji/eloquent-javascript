@@ -13,3 +13,7 @@ npm install --save-dev mocha
 ```
 
 ### Running Tests
+
+```console
+./node_modules/mocha/bin/mocha 03--functions
+```

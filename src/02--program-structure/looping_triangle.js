@@ -1,6 +1,6 @@
 let i;
 let output = "#";
 for (i = 1; i <= 7; i++) {
-  console.log(output)
+  // console.log(output)
   output += "#"
 }

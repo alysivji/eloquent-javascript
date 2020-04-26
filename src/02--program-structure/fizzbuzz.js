@@ -11,5 +11,5 @@ for (num = 1; num <= 100; num++) {
       output += "buzz"
     }
   }
-  console.log(output)
+  // console.log(output)
 }

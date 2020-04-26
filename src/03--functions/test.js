@@ -23,3 +23,33 @@ describe("Minimum", function () {
     })
   })
 });
+
+
+describe("Is Even", function () {
+  describe("test case 1", function () {
+    it('50', function () {
+      assert.equal(exercise._test.isEven(50), true);
+    })
+  })
+
+  describe("test case 2", function () {
+    it('75', function () {
+      assert.equal(exercise._test.isEven(75), false);
+    })
+  })
+});
+
+
+describe("Count Bs", function () {
+  describe("test case 1", function () {
+    it('BbB', function () {
+      assert.equal(exercise._test.countBs("BbB"), 2);
+    })
+  })
+
+  describe("test case 2", function () {
+    it('abc', function () {
+      assert.equal(exercise._test.countBs("abc"), 0);
+    })
+  })
+});

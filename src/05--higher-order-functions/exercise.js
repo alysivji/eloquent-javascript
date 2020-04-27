@@ -24,7 +24,7 @@ function loop(value, testFunction, updateFunction, bodyFunction) {
 result = loop(1, (x) => x <= 5, (x) => x + 1, console.log)
 
 function everyLoop(arr, test) {
-  for (let item in arr) {
+  for (let item of arr) {
     if (!test(item)) {
       return false
     }

@@ -11,6 +11,11 @@
 ```console
 npm install --save-dev mocha
 ```
+4. Install fetch:
+
+```console
+npm i node-fetch --save
+```
 
 ### Running Tests
 
